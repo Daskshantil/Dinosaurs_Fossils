@@ -9,7 +9,7 @@
 
     .navbar {
       width: 100%;
-      background-color: #555;
+      background-color:#555;
       overflow: auto;
       display: flex;
       justify-content: center;
@@ -18,7 +18,7 @@
     .navbar a {
       float: left;
       text-align: center;
-      padding: 12px;
+      padding: 11px;
       color: white;
       text-decoration: none;
       font-size: 17px;
