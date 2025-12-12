@@ -1,0 +1,92 @@
+
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+
+    .navbar {
+      width: 100%;
+      background-color: #555;
+      overflow: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navbar a {
+      float: left;
+      text-align: center;
+      padding: 12px;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      cursor: pointer;
+    
+    }
+
+    .navbar a:hover {
+      background-color: #000;
+    }
+
+    .navbar a.active {
+      background-color: #4caf50;
+    }
+
+    @media screen and (max-width: 500px) {
+      .navbar a {
+        float: none;
+        display: block;
+        width: 95%;
+        text-align: left;
+      }
+    }
+
+
+    .content {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #4caf50;
+      text-align: center;
+    }
+
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #4caf50;
+      padding-bottom: 5px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #444;
+    }
+    
+
+    img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 10px auto;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #555;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .dino-section img{
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        margin-bottom: 40px;
+    }
